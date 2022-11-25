@@ -4,10 +4,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site LeoGRATON</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <head>
-        <h1>Bienvenue sur ma page</h1>
-    </head>
+    <header class="container__header">
+        <nav class="container__header-menu">
+            <img class="container__header-menu-img" src="./images/logo.png" alt="logo de leo">
+            <ul class="container__header-menu-list">
+                <li class="container__header-menu-list-item">
+                    <a href="#" class="container__header-menu-list-item-link">
+                        <span class="number-menu">01.</span>Accueil
+                    </a>
+                </li>
+                <li class="container__header-menu-list-item">
+                    <a href="#" class="container__header-menu-list-item-link">
+                        <span class="number-menu">02.</span>À propos
+                    </a>
+                </li>
+                <li class="container__header-menu-list-item">
+                    <a href="#" class="container__header-menu-list-item-link">
+                        <span class="number-menu">03.</span>Portfolio
+                    </a>
+                </li>
+                <li class="container__header-menu-list-item">
+                    <a href="#" class="container__header-menu-list-item-link">
+                        <span class="number-menu">04.</span>Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container__header-presentation">
+            <img class="container__header-presentation-filigrane" src="./images/portfolio.png" alt="">
+            <div class="container__header-presentation-info">
+                <span class="container__header-presentation-info-subtitle blanc">mon portfolio</span>
+                <h1 class="container__header-presentation-info-title">Bienvenue sur la présentation de mon portfolio en ligne</h1>
+                <p class="container__header-presentation-info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at cursus velit. Proin imperdiet porttitor convallis. Sed volutpat.</p>
+                <a class="container__header-presentation-info-btn" href="#"><span>Découvrir mes créations</span></a>
+            </div>
+            <div class="container__header-presentation-img">
+                <img class="container__header-presentation-img-leo" src="./images/leo.png" alt="photo de leo">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container__apropos">
+            <div class="container__apropos-left">
+                <img src="./images/image-business.jpg" alt="personne qui travail" class="container__apropos-left-image">
+            </div>
+            <div class="container__apropos-right">
+                <span class="container__header-presentation-info-subtitle blanc">qui suis-je ?</span>
+                <h1 class="container__header-presentation-info-title">À propos de moi</h1>
+                <p class="container__header-presentation-info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at cursus velit. Proin imperdiet porttitor convallis. Sed volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at cursus velit. Proin imperdiet porttitor convallis. Sed volutpat.</p>
+                <a class="container__header-presentation-info-btn btn-noir" href="#"><span>En savoir plus</span></a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
